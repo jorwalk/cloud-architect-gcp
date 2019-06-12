@@ -68,3 +68,30 @@ The Google Cloud Certified - Professional Cloud Architect exam assesses your abi
 - network configuration for data transfer and latency
 - data retention and data lifecycle management
 - data growth management
+
+2.3 Configuring compute systems. Considerations include:
+
+- compute system provisioning
+- compute volatility configuration (preemptible vs. standard)
+- network configuration for compute nodes
+- infrastructure provisioning technology configuration (e.g. Chef/Puppet/Ansible/Terraform)
+- container orchestration (e.g. Kubernetes)
+
+### Section 3: Designing for security and compliance
+3.1 Designing for security. Considerations include:
+
+- Identity and Access Management (IAM)
+- Resource hierarchy (organizations, folders, projects)
+- data security (key management, encryption)
+- penetration testing
+- Separation of Duties (SoD)
+- security controls
+- Managing customer-supplied encryption keys with Cloud KMS
+
+3.2 Designing for legal compliance. Considerations include:
+
+- legislation (e.g., Health Insurance Portability and Accountability Act (HIPAA), Children’s Online Privacy Protection Act (COPPA), etc.)
+- audits (including logs)
+- certification (e.g., Information Technology Infrastructure Library (ITIL) framework)
+
+
