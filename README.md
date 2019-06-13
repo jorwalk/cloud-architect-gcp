@@ -32,3 +32,39 @@ The Google Cloud Certified - Professional Cloud Architect exam assesses your abi
 - elasticity of cloud resources
 - scalability to meet growth requirements
 
+1.3 Designing network, storage, and compute resources. Considerations include:
+- integration with on premises/multi-cloud environments
+- Cloud native networking (VPC, peering, firewalls, container networking)
+- identification of data processing pipeline
+- matching data characteristics to storage systems
+- data flow diagrams
+- storage system structure (e.g., Object, File, RDBMS, NoSQL, NewSQL)
+- mapping compute needs to platform products
+
+1.4 Creating a migration plan (i.e., documents and architectural diagrams). Considerations include:
+- integrating solution with existing systems
+- migrating systems and data to support the solution
+- licensing mapping
+- network and management planning
+- testing and proof-of-concept
+
+1.5 Envisioning future solution improvements. Considerations include:
+- cloud and technology improvements
+- business needs evolution
+- evangelism and advocacy
+
+### Section 2: Managing and provisioning solution Infrastructure
+2.1 Configuring network topologies. Considerations include:
+
+- extending to on-premise (hybrid networking)
+- extending to a multi-cloud environment which may include GCP to GCP communication
+- security
+- data protection
+
+2.2 Configuring individual storage systems. Considerations include:
+- data storage allocation
+- data processing/compute provisioning
+- security and access management
+- network configuration for data transfer and latency
+- data retention and data lifecycle management
+- data growth management
