@@ -27,3 +27,8 @@ The Google Cloud Certified - Professional Cloud Architect exam assesses your abi
 - success measurements (e.g., Key Performance Indicators (KPI), Return on Investment (ROI), metrics)
 - Compliance and observability
 
+1.2 Designing a solution infrastructure that meets technical requirements. Considerations include:
+- high availability and failover design
+- elasticity of cloud resources
+- scalability to meet growth requirements
+
