@@ -12,86 +12,40 @@ The Google Cloud Certified - Professional Cloud Architect exam assesses your abi
 - Manage implementations of cloud architecture
 - Ensure solution and operations reliability
 
-
-## Certification Exam Guide
-
-### Section 1: Designing and planning a cloud solution architecture
-1.1 Designing a solution infrastructure that meets business requirements. Considerations include:
-- business use cases and product strategy
-- cost optimization
-- supporting the application design
-- integration
-- movement of data
-- tradeoffs
-- build, buy or modify
-- success measurements (e.g., Key Performance Indicators (KPI), Return on Investment (ROI), metrics)
-- Compliance and observability
-
-1.2 Designing a solution infrastructure that meets technical requirements. Considerations include:
-- high availability and failover design
-- elasticity of cloud resources
-- scalability to meet growth requirements
-
-1.3 Designing network, storage, and compute resources. Considerations include:
-- integration with on premises/multi-cloud environments
-- Cloud native networking (VPC, peering, firewalls, container networking)
-- identification of data processing pipeline
-- matching data characteristics to storage systems
-- data flow diagrams
-- storage system structure (e.g., Object, File, RDBMS, NoSQL, NewSQL)
-- mapping compute needs to platform products
-
-1.4 Creating a migration plan (i.e., documents and architectural diagrams). Considerations include:
-- integrating solution with existing systems
-- migrating systems and data to support the solution
-- licensing mapping
-- network and management planning
-- testing and proof-of-concept
-
-1.5 Envisioning future solution improvements. Considerations include:
-- cloud and technology improvements
-- business needs evolution
-- evangelism and advocacy
-
-### Section 2: Managing and provisioning solution Infrastructure
-2.1 Configuring network topologies. Considerations include:
-
-- extending to on-premise (hybrid networking)
-- extending to a multi-cloud environment which may include GCP to GCP communication
-- security
-- data protection
-
-2.2 Configuring individual storage systems. Considerations include:
-- data storage allocation
-- data processing/compute provisioning
-- security and access management
-- network configuration for data transfer and latency
-- data retention and data lifecycle management
-- data growth management
-
-2.3 Configuring compute systems. Considerations include:
-
-- compute system provisioning
-- compute volatility configuration (preemptible vs. standard)
-- network configuration for compute nodes
-- infrastructure provisioning technology configuration (e.g. Chef/Puppet/Ansible/Terraform)
-- container orchestration (e.g. Kubernetes)
-
-### Section 3: Designing for security and compliance
-3.1 Designing for security. Considerations include:
-
-- Identity and Access Management (IAM)
-- Resource hierarchy (organizations, folders, projects)
-- data security (key management, encryption)
-- penetration testing
-- Separation of Duties (SoD)
-- security controls
-- Managing customer-supplied encryption keys with Cloud KMS
-
-3.2 Designing for legal compliance. Considerations include:
-
-- legislation (e.g., Health Insurance Portability and Accountability Act (HIPAA), Children’s Online Privacy Protection Act (COPPA), etc.)
-- audits (including logs)
-- certification (e.g., Information Technology Infrastructure Library (ITIL) framework)
+### Study Material
+- [Certification Exam Guide](Certification-Exam-Guide.md)
 
 
+### Sample Case Studies
+During the exam for the Cloud Architect Certification, some of the questions may refer you to a case study that describes a fictitious business and solution concept. These case studies are intended to provide additional context to help you choose your answer(s). Review some sample case studies that may be used in the exam.
+
+- [Mountkirk Games](https://cloud.google.com/certification/guides/cloud-architect/casestudy-mountkirkgames-rev2/)
+- [Dress4Win](https://cloud.google.com/certification/guides/cloud-architect/casestudy-dress4win-rev2/)
+- [TerramEarth](https://cloud.google.com/certification/guides/cloud-architect/casestudy-terramearth-rev2/)
+
+### Practice Exam
+The Cloud Architect practice exam will familiarize you with types of questions you may encounter on the certification exam and help you determine your readiness or if you need more preparation and/or experience.
+- [Launch The Exam](https://forms.gle/SHcLhSXckievBNBn6)
+
+## Online Learning
+### Coursera
+- [Preparing for the Google Cloud Professional Cloud Architect Exam](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/home/welcome)
+
+### QwikLabs
+Cloud Architecture
+
+This fundamental-level quest is unique amongst the other Qwiklabs offerings. The labs have been curated to give IT professionals hands-on practice with topics and services that appear in the Google Cloud Certified Associate Cloud Engineer Certification. From IAM, to networking, to Kubernetes engine deployment, this quest is composed of specific labs that will put your GCP knowledge to the test. Be aware that while practice with these labs will increase your skills and abilities, we recommend that you also review the exam guide and other available preparation resources.
+
+#### [Orchestrating the Cloud with Kubernetes](https://google.qwiklabs.com/focuses/557?parent=catalog)
+In this lab you will learn how to: Provision a complete Kubernetes cluster using Google Container Engine; Deploy and manage Docker containers using kubectl; and Break an application into microservices using Kubernetes’ Deployments and Services.
+#### [Deployment Manager - Full Production](https://google.qwiklabs.com/focuses/981?parent=catalog)
+In this lab you will launch a service using Deployment Manager, and monitor it using Stackdriver. You will set up basic black box monitoring with Stackdriver Dashboard and establish uptime check alert notification to trigger incident response.
+#### [Continuous Delivery with Jenkins in Kubernetes Engine](https://google.qwiklabs.com/focuses/1104?parent=catalog)
+In this lab you will deploy and completely configure a continuous delivery pipeline using Jenkins running on Kubernetes Engine and go through the dev - deploy process.
+#### [Networking 102](https://google.qwiklabs.com/focuses/556?parent=catalog)
+Properly secured networks control connections and access into, out of, and among your resources. In this lab, you will practice deploying Networks and Subnetworks in two different GCP projects and multiple instances within the Google Cloud.
+#### [Site Reliability Troubleshooting with Stackdriver APM](https://google.qwiklabs.com/focuses/4186?parent=catalog)
+The objective of this lab is to familiarize yourself with the specific capabilities of Stackdriver to monitor GKE cluster infrastructure, Istio, and applications deployed on this infrastructure.
+
+### Documentation
+Visit the [documentation page](https://cloud.google.com/docs/) with overviews and in-depth discussions on the concepts and critical components of GCP.
