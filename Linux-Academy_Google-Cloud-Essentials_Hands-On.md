@@ -113,8 +113,7 @@ Compute Engine VM instances can utilize a wide range of boot disks; Google Cloud
 1. From the RDP options, click Set Windows password.
 1. In the dialog, confirm your username is correct and click Set.
 1. Copy the supplied password and click Close.
-- cloud_user_p_c647d9
-- ou\J|Zu&Wb*e\{a
+
 #### Launch RDP window.
 1. Launch the RDP window by using one of the following methods:
     * If you're on a Windows system, click RDP.
