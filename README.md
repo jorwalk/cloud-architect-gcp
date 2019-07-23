@@ -32,6 +32,8 @@ The Cloud Architect practice exam will familiarize you with types of questions y
 - [Preparing for the Google Cloud Professional Cloud Architect Exam](https://www.coursera.org/learn/preparing-cloud-professional-cloud-architect-exam/home/welcome)
 
 ### QwikLabs
+- [GCP Essentials](GCP-Essentials.md)
+
 Cloud Architecture
 
 This fundamental-level quest is unique amongst the other Qwiklabs offerings. The labs have been curated to give IT professionals hands-on practice with topics and services that appear in the Google Cloud Certified Associate Cloud Engineer Certification. From IAM, to networking, to Kubernetes engine deployment, this quest is composed of specific labs that will put your GCP knowledge to the test. Be aware that while practice with these labs will increase your skills and abilities, we recommend that you also review the exam guide and other available preparation resources.
@@ -49,3 +51,6 @@ The objective of this lab is to familiarize yourself with the specific capabilit
 
 ### Documentation
 Visit the [documentation page](https://cloud.google.com/docs/) with overviews and in-depth discussions on the concepts and critical components of GCP.
+
+* [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
+* [VPC Network Peering](https://cloud.google.com/vpc/docs/vpc-peering)
