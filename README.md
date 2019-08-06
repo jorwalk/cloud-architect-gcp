@@ -54,3 +54,37 @@ Visit the [documentation page](https://cloud.google.com/docs/) with overviews an
 
 * [Shared VPC](https://cloud.google.com/vpc/docs/shared-vpc)
 * [VPC Network Peering](https://cloud.google.com/vpc/docs/vpc-peering)
+
+
+### Possible Exam Scenario's
+#### Preemptible VM's
+- Create and terminate machine to save costs, but preserve disk state.
+    - --no-auto-delete --disk example-disk
+- Managed instance group with PVM's keep recreating every minute.
+    - Health check / firewall configuration
+#### Backup and Disaster Recovery
+- Rollback plan for managed instance group serving website - 100's of instances
+    - Object versioning on static data in Cloud Storage
+    - Rolling updates
+    - NOT snapshots
+- Backup critical database with zero downtime and minimal resource usage
+    - Scheduled cron jobs
+    - Backup database data to another location(persistent disk/Cloud Storage)
+- App Engine - need to push risky update to live environment
+    - Versioning/traffic splitting
+    - Deploy update to small % of traffic as canary update
+#### Network Design for Security and Isolation
+- Instance group VM's keep restarting every minute
+    - Failing health check
+    - Configure firewall to allow proper access to instance group VM's (subnet, tag) from load balancer IP
+- On-premises network access to proper network resources
+    - Restrict ingress firewall access to on-premises network IP range
+- Failover from on-premises load balancer hosted application to GCP hosted instance group (hot standby)
+    - Consider security and compliance
+    - Allow firewall access at instance group level (subnet/tag) from outside source
+- External SSH access disabled, but operations team needs to remotely manage VM's
+    - Give operations team access to Cloud Shell
+    - Not same scenario as removing external IP's
+#### Legal Compliance and Audits
+
+            
